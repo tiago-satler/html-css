@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoelementos</title>
+    <style>
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+            color:red;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: green;
+            font-weight: bold;
+        }
+        a:active {
+            color: yellow;
+        }
+
+        a::before {
+            content: "< ";
+            color: red;
+        }
+        a:after {
+            content: " >";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io"> Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">site do curso em video</a></li>
+    </ul>
+</body>
+</html>

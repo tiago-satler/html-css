@@ -1,0 +1,48 @@
+@charset "UTF-8";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+</style>
+* {
+    /*height: 100%;*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, #026773, #3CA6A6) ;
+}
+main {
+    background-color: white;
+    border-radius:10px ;
+    box-shadow: 5px 5px 15px #000e1398;
+    width: 600px;
+    padding:10px;
+    margin:auto;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+color:#012e40;
+text-align: center;
+text-shadow: 1px 1px 2px #00131bc1;
+}
+
+h2{
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 43px;
+    text-align: center;
+
+color:#9FE5C8;
+}
+
+p {
+    font-family: "Rubik Mono One", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    text-align: center;
+}
